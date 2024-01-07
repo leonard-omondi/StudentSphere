@@ -8,8 +8,8 @@ public class ConnectionUtil {
 
     private static final String URL = "jdbc:mysql://localhost:3306/studentsphere";
     // Use your own MySQL Workbench username and password below
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "omosh5432";
+    private static final String USERNAME = "your_username_here";
+    private static final String PASSWORD = "your_password_here";
 
     public static Connection getConnection() {
 

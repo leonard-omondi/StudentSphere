@@ -153,37 +153,3 @@ public class Controller {
     }
 
 }
-/*
- * private void updateMessageByID(Context ctx) {
- * try {
- * long message_id = Long.parseLong(ctx.pathParam("message_id"));
- * String newMessage = ctx.body();
- * if (isValidMessageText(newMessage)) {
- * Message updatedMessage = messageService.updateMessageByID(message_id,
- * newMessage);
- * if (updatedMessage != null) {
- * ctx.json(updatedMessage).status(200);
- * } else {
- * ctx.result("Failed to update message text").status(400); // Fix the typo here
- * }
- * } else {
- * ctx.result("Invalid new message text").status(400);
- * }
- * } catch (NumberFormatException e) {
- * // Invalid message_id in the path parameter
- * ctx.result("Invalid message_id in the path: " +
- * ctx.pathParam("message_id")).status(400);
- * } catch (Exception e) {
- * // Exception occurred
- * ctx.result("Internal server error").status(500);
- * e.printStackTrace();
- * }
- * }
- * 
- * private boolean isValidMessageText(String messageText) {
- * // Validate new message text
- * return messageText != null
- * && !messageText.trim().isEmpty()
- * && messageText.length() <= 255;
- * }
- */
