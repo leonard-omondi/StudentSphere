@@ -1,6 +1,6 @@
 # StudentSphere Social Media Blog API
 
-This project is a fully functional API for a hypothetical social media application called StudentSphere. It is designed to manage user accounts and messages within the application. StudentSphere allows users to register, log in, create, update, delete, and retrieve messages. The project uses Maven, the Javalin web framework, and MySQL as the database.
+This project is a fully functional API for a hypothetical social media application called StudentSphere. It is designed to manage user accounts and messages within the application. StudentSphere allows users to register, log in, create, update, delete, and retrieve messages. The project uses Maven, the Javalin web framework, MySQL as the database, and JDBC for database connectivity.
 
 ## Features
 
